@@ -699,7 +699,7 @@ footer .links a {
     height: 23rem;
     object-fit: cover;
     object-position: center;
-    margin-left: 60px;
+    margin-left: 20px;
   }
   .about .row .content {
     padding: 0;
@@ -812,7 +812,7 @@ footer .links a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 60px;
+    margin-right: 20px;
   }
 }
 @media (max-width: 736px) {
@@ -823,4 +823,6 @@ footer .links a {
   .container {
     max-width: 320px; /* Ganti sesuai kebutuhan Anda */
   }
+}
+@media (max-width: 350px) {
 }
