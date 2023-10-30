@@ -399,6 +399,14 @@ label {
   border-radius: 20px;
   max-width: 100%;
 }
+.modul .row .pdfmodul object {
+  width: 600px;
+  height: 500px;
+}
+.modul .row .pdfmodul embed {
+  width: 600px;
+  height: 500px;
+}
 .modul .row .dwn {
   display: flex;
   align-items: center;
@@ -799,6 +807,12 @@ footer .links a {
   .container {
     max-width: 200px; /* Ganti sesuai kebutuhan Anda */
     padding: 20px;
+  }
+  .about .row .about-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
   }
 }
 @media (max-width: 736px) {
