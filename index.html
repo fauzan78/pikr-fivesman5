@@ -134,12 +134,12 @@ crossorigin="anonymous"
         <ul class="carousel">
           <li class="card">
             <div class="img"><img src="profile/img 1.jpg" alt="img" draggable="false"></div>
-            <h2>Nayla Khalisa Meiliana</h2>
+            <h2>Nayla Khalisa Meyliana</h2>
             <span>Ketua</span>
           </li>
           <li class="card">
             <div class="img"><img src="profile/img 5.jpg" alt="img" draggable="false"></div>
-            <h2>Rassya Febri Humman Al-Ayyubi</h2>
+            <h2>Rasya</h2>
             <span>Wakil Ketua</span>
           </li>
           <li class="card">
@@ -165,7 +165,7 @@ crossorigin="anonymous"
           </li>
           <li class="card">
             <div class="img"><img src="profile/moura.jpg" alt="img" draggable="false"></div>
-            <h2>Moura Dyandra</h2>
+            <h2>Moura Deandra</h2>
             <span>Ketua KS</span>
           </li>
           
@@ -231,23 +231,20 @@ crossorigin="anonymous"
 </section>
     <!-- sosmed kami end -->
     <section id="contact" class="contact fade-up-animation">
-      <h2><span>Kontak</span> kami</h2>
+      <h2><span>Kotak</span> saran</h2>
       <p>Kunjungi Kami
       </p>
       <div class="row">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.6928850632453!2d107.30349457389711!3d-6.304022161693156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6977e381771633%3A0x3826c65deff33e3d!2sSMAN%205%20Karawang!5e0!3m2!1sid!2sid!4v1697627193271!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
-        <form action="">
+        <form id="contact-form" action="https://formspree.io/f/myyqveyv" method="POST">
           <div class="input-group">
             <i data-feather="user"></i>
-            <input type="text" placeholder="nama">
+            <input type="text" id="fname" name="username" placeholder="nama" required>
           </div>
-          <div class="input-group">
-            <i data-feather="mail"></i>
-            <input type="text" placeholder="email">
-          </div>
-          <div class="input-group">
-            <i data-feather="phone"></i>
-            <input type="text" placeholder="nomor hp">
+         
+          <div class="message">
+            
+            <textarea type="text" cols="80" row="10" class="message" name="message-area"placeholder="saran" name="message"></textarea>
           </div>
           <button type="submit" class="pesan">Kirim Pesan</button>
         </form>
