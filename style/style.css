@@ -563,6 +563,21 @@ label {
   border: 1px solid #eee;
   padding-left: 2rem;
 }
+
+.contact .row form .message textarea {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-top: 2rem;
+  background-color: #4d4c7d;
+  border: 1px solid #eee;
+  color: #ffff;
+  font-size: 1.4rem;
+  padding-left: 2rem;
+  width: 518px;
+  height: 10vh;
+  resize: none;
+}
 .contact .row .input-group input {
   width: 100%;
   padding: 1.3rem;
@@ -619,6 +634,20 @@ footer .links a {
 @media (max-width: 1366px) {
   html {
     font-size: 100%;
+  }
+  .contact .row form .message textarea {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 2rem;
+    background-color: #4d4c7d;
+    border: 1px solid #eee;
+    color: #ffff;
+    font-size: 1.4rem;
+    padding-left: 2rem;
+    width: 530px;
+    height: 80px;
+    resize: none;
   }
 }
 /*Tablet */
@@ -786,6 +815,9 @@ footer .links a {
   }
   .contact .row form {
     padding-top: 0;
+  }
+  .contact .row form .message textarea {
+    width: 100%;
   }
   .wrapper .carousel {
     grid-auto-columns: calc((100% / 2) - 9px);
