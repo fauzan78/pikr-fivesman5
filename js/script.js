@@ -195,3 +195,19 @@ wrapper1.addEventListener("mouseenter", () => clearTimeout(timeoutId1));
 wrapper1.addEventListener("mouseleave", autoPlay);
 
 // The second carousel can be defined similarly with unique variable names and reused functions.
+// kotak saran
+const contactForm = document.querySelector("#contact-form");
+contactForm.addEventListener("submit", function (e) {
+  e.preventDefault();
+  const url = e.target.action; // Pastikan action pada elemen form berisi URL yang benar
+  const formData = new FormData(e.target);
+  fetch(url, {
+    method: "POST",
+    body: formData,
+  })
+    .then(() => {
+      // URL thanks you
+      window.location.href = "thanks.html";
+    })
+    .catch((e) => alert("Error occurred: " + e));
+});
