@@ -204,6 +204,7 @@ contactForm.addEventListener("submit", function (e) {
   fetch(url, {
     method: "POST",
     body: formData,
+    mode: "no-cors",
   })
     .then(() => {
       // URL thanks you
