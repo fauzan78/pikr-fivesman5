@@ -481,6 +481,9 @@ footer .links a {
   .navbar .navbar-nav a:hover::after {
     transform: scaleX(0.3);
   }
+  .slider {
+    height: auto;
+  }
   .txt h1 {
     font-size: 30px;
     margin-bottom: 20px;
@@ -498,10 +501,15 @@ footer .links a {
     display: block;
   }
 }
+@media screen and (max-width: 780px) {
+  .slider {
+    height: 70vh; /* Sesuaikan tinggi slide dengan kontennya */
+  }
+}
 /* 456px */
 @media screen and (max-width: 450px) {
-  .myslide {
-    height: auto; /* Sesuaikan tinggi slide dengan kontennya */
+  .slider {
+    height: 40vh; /* Sesuaikan tinggi slide dengan kontennya */
   }
 
   .prev,
