@@ -212,4 +212,3 @@ contactForm.addEventListener("submit", function (e) {
     })
     .catch((e) => alert("Error occurred: " + e));
 });
-
