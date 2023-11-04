@@ -248,9 +248,16 @@ body {
   padding: 20px;
   margin: 20px;
 }
-
+.about-ps .content-ps p,
+.about-ps .content-ks p {
+  line-height: 1.5;
+}
 .about-ps .content-ps {
   margin-right: 10px;
+}
+.about-ps .content-ps h3,
+.about-ps .content-ks h3 {
+  font-size: 30px;
 }
 /* end */
 .menu p,
@@ -733,15 +740,18 @@ footer .links a {
   .about .row .content {
     padding: 0;
   }
-  .about .row .content h3 {
+  .about .row .content h3,
+  .about-ps .row .content-ks h3,
+  .about-ps .row .content-ps h3 {
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
   }
   .about .row .content p,
-  .about-ps .row .content-ps,
-  .about-ps .row .content-ks {
+  .about-ps .row .content-ps p,
+  .about-ps .row .content-ks p {
     font-size: 1.8rem;
+    line-height: 150%;
     text-emphasis: none;
     text-align: center;
   }
