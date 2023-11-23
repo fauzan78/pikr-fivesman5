@@ -1,3 +1,5 @@
+AOS.init();
+
 // toggle class active//
 const navbarNav = document.querySelector(".navbar-nav");
 //ketika hamburger menu di click //
